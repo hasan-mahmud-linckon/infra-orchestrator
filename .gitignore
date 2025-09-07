@@ -1,0 +1,45 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+*.sqlite3
+
+# ---- Virtual Environment ----
+.venv/
+venv/
+ENV/
+env/
+.venv.bak/
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+logs/
+*.log
+
+# ---- SSH Keys ----
+*.pem
+*.key
+*.pub
+
+# ---- Docker ----
+*.pid
+*.seed
+*.tar
+*.bak
+
+# ---- Local testing ----
+.env
+*.retry
